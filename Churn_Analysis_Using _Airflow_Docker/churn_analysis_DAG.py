@@ -1,16 +1,9 @@
 '''
-=================================================
-Milestone 3
-
-Nama  : Firhan
-Batch : FTDS-022-RMT
-
 Program ini dibuat untuk melakukan automatisasi langkah-langkah pemrosesan data menggunakan Airflow. Semua proses dilakukan dengan pipeline dan menggunakan konfigurasi melalui Docker. 
 Langkah pemrosesan data ini dilakukan dengan Fungsi Directed Acyclic Graphs (DAGs) yang dijalankan melalui PythonOperator, dengan langkah pertama dalam pipeline ini adalah mengambil data dari database PostgreSQL.
 Setelah proses pengambilan/fetch data, selanjutnya adalah pembersihan data, kemudian dimasukkan ke Elasticsearch untuk memfasilitasi eksplorasi data dan analisis visualisasi data. 
 Tujuan utama program ini adalah memanfaatkan Airflow melalui konfigurasi environment Docker dalam mengatur pipeline yang mengintegrasikan data dari PostgreSQL ke dalam format data yang siap divisualisasikan menggunakan Kibana.
 
-=================================================
 '''
 
 # Instalasi libraries
